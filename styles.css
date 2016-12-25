@@ -1,0 +1,157 @@
+/*
+************************
+Created by Stepan Pesout
+*****www.pesout.eu******
+*****@stepanpesout******
+************************
+*/
+
+@font-face 
+{
+    font-family: zelichov;
+    src: url("font-regular.ttf");
+}
+
+body
+{
+font-family: zelichov;
+}
+
+iframe
+{
+height: 100%;
+width: 100%;
+top:0px;
+left:0px;
+position: absolute;
+z-index:5;
+}
+
+#hlavnistrana
+{
+width:100%;
+height: 100%;
+top: 0px;
+left: 0px;
+position: absolute;
+background-color: linen;
+z-index: 15;
+}
+
+
+#ctverecek
+{
+position: fixed;
+left:0px;
+bottom:0px;
+height: 45px;
+width:45px;
+z-index: 16;
+background-color: #43b02a;
+font-weight: bold; 
+font-size: 16pt; 
+color: black; 
+
+}
+
+
+#prvnipole
+{
+position:absolute;
+left:0%; 
+height:100%;
+top:0px;
+width:27%;
+z-index:8;
+}
+
+#prvnipole_ram
+{
+height: 100%;
+width: 100%;
+top:0px;
+left:0px;
+position: absolute;
+}
+
+
+#druhepole
+{
+position:absolute;
+left:25%;
+height:100%;
+top:0px;
+width:25%; 
+z-index:8;
+}
+
+
+#tretipole
+{
+position:absolute; 
+left:50%; 
+height:100%; 
+top:0px;  
+width:25%; 
+z-index:8;
+}
+
+#ctvrtepole
+{
+position:absolute;
+right:0%; 
+height:100%; 
+top:0px; 
+width:25%; 
+z-index:8;
+}
+
+#logo_pruh
+{
+position: absolute;
+position: fixed;
+top: 45%;
+width:100%;
+z-index: 16;
+}
+
+
+#logo
+{
+width: 500px;
+}
+
+#menu
+{
+position: absolute;
+left: 0px;
+top: 0px;
+width: 100%;
+z-index: 14;
+font-size: 16pt;
+font-weight: bold;
+background-color: wheat;
+}
+
+#telefon_logo
+{
+left: 7px;
+top: 0px;
+position: absolute;
+font-size: 25pt;
+}
+
+
+
+.menu	a:link   
+	{color: black; text-decoration: none; }
+
+.menu	a:visited    
+	{color: black; text-decoration: none;}
+
+.menu	a:active    
+	{color: black; text-decoration: underline;}
+
+.menu	a:hover    
+	{color: black; text-decoration: underline;}
+

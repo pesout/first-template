@@ -1,0 +1,49 @@
+<html>
+<!--
+************************
+Created by Stepan Pesout
+*****www.pesout.eu******
+*****@stepanpesout******
+************************
+-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--SEO-->
+<title>A JS template</title>
+<script src="scripts.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+
+
+<body onload="nacti();">
+
+<div id="hlavnistrana">&nbsp</div>
+<center><div id="logo_pruh"><img src="grafika/nacitani.gif" width="70" height="9"><br><b>Just a moment...</b></div></center>
+
+
+<div id="prvnipole"  onmouseover="prvnizmena();"  onmouseout="prvnizpet();" ><iframe src="pole1.html" scrolling="no" frameborder="0"></iframe></div>
+<div id="druhepole"  onmouseover="druhezmena();"  onmouseout="druhezpet();" ><iframe src="pole2.html" scrolling="no" frameborder="0"></iframe></div>
+<div id="tretipole"  onmouseover="tretizmena();"  onmouseout="tretizpet();" ><iframe src="pole3.html" scrolling="no" frameborder="0"></iframe></div>
+<div id="ctvrtepole" onmouseover="ctvrtezmena();" onmouseout="ctvrtezpet();"><iframe src="pole4.html" scrolling="no" frameborder="0"></iframe></div>
+
+<div id="ctverecek" onmouseover="ctzmena();" onmouseout="ctzpet();">
+<span id="telefon_logo">@</span>
+<span style="position: relative; top: 8px;"><center>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Adress: Street XY, City; example@example.com
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</center></span>
+</div>
+
+<div id ="menu" class="menu">
+	<center>	
+	|  
+	<a href="#" onclick="alert('This is a preview only.')">This is the first link</a>  |  
+	<a href="#" onclick="alert('This is a preview only.')">Second link of menu</a>  |  
+	<a href="#" onclick="alert('This is a preview only.')">Third link</a>  |
+	</center>
+</div>
+
+</body>
+</html>

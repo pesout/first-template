@@ -1,0 +1,61 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--SEO-->
+<title>Dvůr Želichov</title>
+
+<script language="JavaScript" type="text/javascript">
+var a = 0;	
+var c = 0;
+d = new Image();
+d.src = "grafika/foto2a.JPG";
+function spoustec() {
+b = setInterval(function(){pohyb()},80);	
+obrazek.src = "grafika/foto2a.JPG";
+}
+function pohyb() {  
+	if (a != -400) {
+	 a = a - 1;
+	 c = a; 
+	 document.getElementById('druhepole_ram_src').style.left = a;
+	 
+	}	 
+
+}
+function spoustecvyp() {
+clearInterval(b);	
+obrazek.src = 'grafika/foto2.JPG';
+document.getElementById('druhepole_ram_src').style.left = a;
+} 
+</script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+#druhepole_ram_src
+{
+height:100%;
+top:0px;
+left:0px;
+position: absolute;
+}
+#text_ram2
+{
+position: absolute;
+color: #fff;
+top: 43%;
+left: 0px;
+font-size: 20pt;
+z-index:5;
+font-weight: bold;
+width: 100%;
+text-shadow: 3px 3px 3px #000000;
+}
+</style>
+</head>
+
+
+<body>
+<img src="grafika/foto2a.JPG" style="visibility: hidden;">
+<img src="grafika/foto2.JPG" id="druhepole_ram_src" name="obrazek" onmouseover="spoustec()" onmouseout="spoustecvyp()" onclick="alert('This is a preview only.')">
+<div id="text_ram2" onmouseover="spoustec()" onmouseout="spoustecvyp()" onclick="alert('This is a preview only.')">
+<center>AMET<br>CONSECTETUR</center>
+</div>
+</body>
